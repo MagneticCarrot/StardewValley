@@ -1,0 +1,33 @@
+Message: Could not load Mods\Elle.CuterBarnAnimals\Cow\SpottedBlack asset!
+InnerException: 
+Stack Trace:    at StardewValley.LocalizedContentManager.LoadImpl[T](String baseAssetName, String localizedAssetName, LanguageCode languageCode) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\LocalizedContentManager.cs:line 485
+   at StardewValley.LocalizedContentManager.Load[T](String assetName, LanguageCode language) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\LocalizedContentManager.cs:line 564
+   at StardewValley.AnimatedSprite.loadTexture() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\AnimatedSprite.cs:line 197
+   at StardewValley.AnimatedSprite.UpdateSourceRect() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\AnimatedSprite.cs:line 549
+   at StardewValley.Character.faceDirection(Int32 direction) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Character.cs:line 558
+   at StardewValley.FarmAnimal.UpdateRandomMovements() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\FarmAnimals\FarmAnimal.cs:line 2086
+   at StardewValley.FarmAnimal.updateWhenNotCurrentLocation(Building currentBuilding, GameTime time, GameLocation environment) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\FarmAnimals\FarmAnimal.cs:line 1381
+   at StardewValley.GameLocation.updateEvenIfFarmerIsntHere(GameTime time, Boolean ignoreWasUpdatedFlush) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 4673
+   at StardewValley.Game1._UpdateLocation(GameLocation location, GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6169
+   at StardewValley.Game1.<>c__DisplayClass735_0.<UpdateLocations>b__0(GameLocation location) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6126
+   at StardewValley.Utility.<>c__DisplayClass17_1.<ForEachLocation>b__0(GameLocation interior) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Utility.cs:line 350
+   at StardewValley.GameLocation.ForEachInstancedInterior(Func`2 action) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 18193
+   at StardewValley.Utility.ForEachLocation(Func`2 action, Boolean includeInteriors, Boolean includeGenerated) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Utility.cs:line 348
+   at StardewValley.Game1.UpdateLocations(GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6124
+   at StardewValley.Game1._update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 4326
+   at StardewValley.Game1.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 3454
+   at StardewValley.GameRunner.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\LocalMultiplayer.cs:line 927
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 917
+   at Microsoft.Xna.Framework.Game.Tick() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 620
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop() in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\SDL\SDLGamePlatform.cs:line 90
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 481
+   at StardewValley.Program.Main(String[] args) in D:\GitlabRunner\builds\Gq5qA5P4\0\ConcernedApe\stardewvalley\Farmer\Farmer\Program.cs:line 219
+
+Game Version: 1.6.15 build 24356
+SDK Helper: SteamHelper
+Game Language: en
+GPU: NVIDIA GeForce RTX 2060/PCIe/SSE2
+OS: Win32NT Microsoft Windows NT 10.0.26200.0
+Multiplayer (Host)
+In-game Date: Fall 26 Y1 Time of Day: 710
+Game Location: Farm
