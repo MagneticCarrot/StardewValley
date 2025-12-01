@@ -1,626 +1,410 @@
-[20:58:40 INFO  SMAPI] SMAPI 4.3.2 with Stardew Valley 1.6.15 build 24356 on Microsoft Windows NT 10.0.26200.0
-[20:58:40 INFO  SMAPI] Mods go here: D:\ProgramFiles\Steam\steamapps\common\Stardew Valley\Mods
-[20:58:40 TRACE SMAPI] Log started at 2025-11-28T12:58:40 UTC
-[20:58:45 DEBUG SMAPI] Waiting for game to launch...
-[20:58:52 TRACE game] Instance_Initialize() finished, elapsed = '00:00:06.3980634'
-[20:58:53 DEBUG SMAPI] Loading mod metadata...
-[20:58:53 DEBUG SMAPI] Loading mods...
-[20:58:53 TRACE SMAPI]    CJB Show Item Sell Price (from Mods\CJBShowItemSellPrice\CJBShowItemSellPrice.dll, ID: CJBok.ShowItemSellPrice, assembly version: 1.10.4)...
-[20:58:54 TRACE SMAPI]    Console Commands (from Mods\ConsoleCommands\ConsoleCommands.dll, ID: SMAPI.ConsoleCommands, assembly version: 4.3.2)...
-[20:58:54 TRACE SMAPI]    Save Backup (from Mods\SaveBackup\SaveBackup.dll, ID: SMAPI.SaveBackup, assembly version: 4.3.2)...
-[20:58:54 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly SaveBackup.dll.
-[20:58:54 INFO  SMAPI] Loaded 3 mods:
-[20:58:54 INFO  SMAPI]    CJB Show Item Sell Price 1.10.4 by CJBok and Pathoschild | Show item sell price in your inventory!
-[20:58:54 INFO  SMAPI]    Console Commands 4.3.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
-[20:58:54 INFO  SMAPI]    Save Backup 4.3.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[14:01:33 INFO  SMAPI] SMAPI 4.3.2 with Stardew Valley 1.6.15 build 24356 on Microsoft Windows NT 10.0.26200.0
+[14:01:33 INFO  SMAPI] Mods go here: D:\ProgramFiles\Steam\steamapps\common\Stardew Valley\Mods
+[14:01:33 TRACE SMAPI] Log started at 2025-12-01T06:01:33 UTC
+[14:01:39 DEBUG SMAPI] Waiting for game to launch...
+[14:01:46 TRACE game] Instance_Initialize() finished, elapsed = '00:00:06.8058174'
+[14:01:46 DEBUG SMAPI] Loading mod metadata...
+[14:01:47 DEBUG SMAPI] Loading mods...
+[14:01:47 TRACE SMAPI]    CJB Show Item Sell Price (from Mods\CJBShowItemSellPrice\CJBShowItemSellPrice.dll, ID: CJBok.ShowItemSellPrice, assembly version: 1.10.4)...
+[14:01:48 TRACE SMAPI]    Console Commands (from Mods\ConsoleCommands\ConsoleCommands.dll, ID: SMAPI.ConsoleCommands, assembly version: 4.3.2)...
+[14:01:48 TRACE SMAPI]    Save Backup (from Mods\SaveBackup\SaveBackup.dll, ID: SMAPI.SaveBackup, assembly version: 4.3.2)...
+[14:01:48 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly SaveBackup.dll.
+[14:01:48 INFO  SMAPI] Loaded 3 mods:
+[14:01:48 INFO  SMAPI]    CJB Show Item Sell Price 1.10.4 by CJBok and Pathoschild | Show item sell price in your inventory!
+[14:01:48 INFO  SMAPI]    Console Commands 4.3.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[14:01:48 INFO  SMAPI]    Save Backup 4.3.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
 
-[20:58:54 TRACE SMAPI]    Direct console access
-[20:58:54 TRACE SMAPI]    --------------------------------------------------
-[20:58:54 TRACE SMAPI]       These mods access the SMAPI console window directly. This is more fragile, and their output may not
-[20:58:54 TRACE SMAPI]       be logged by SMAPI.
+[14:01:48 TRACE SMAPI]    Direct console access
+[14:01:48 TRACE SMAPI]    --------------------------------------------------
+[14:01:48 TRACE SMAPI]       These mods access the SMAPI console window directly. This is more fragile, and their output may not
+[14:01:48 TRACE SMAPI]       be logged by SMAPI.
 
-[20:58:54 TRACE SMAPI]       - Save Backup
+[14:01:48 TRACE SMAPI]       - Save Backup
 
-[20:58:54 DEBUG SMAPI] Launching mods...
-[20:58:54 DEBUG SMAPI] Mods loaded and ready!
-[20:58:54 TRACE SMAPI] Checking for known software conflicts...
-[20:58:54 TRACE SMAPI]    None found!
-[20:58:55 TRACE SMAPI] Checking for updates...
-[20:58:55 TRACE Save Backup] Backed up to D:\ProgramFiles\Steam\steamapps\common\Stardew Valley\save-backups\2025-11-28 - SMAPI 4.3.2 with Stardew Valley 1.6.15.zip.
-[20:58:56 TRACE SMAPI]    SMAPI okay.
-[20:58:56 TRACE SMAPI]    Checking for updates to 1 mods...
-[20:58:56 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
-[20:58:56 TRACE SMAPI]    All mods up to date.
-[20:58:56 TRACE SMAPI] Running on GPU: NVIDIA GeForce RTX 2060/PCIe/SSE2
-[20:58:56 TRACE game] Instance_LoadContent() finished, elapsed = '00:00:03.6920105'
-[20:58:56 TRACE game] Steam logged on: True
-[20:58:56 TRACE game] Initializing GalaxySDK
-[20:58:56 TRACE game] Requesting Steam app ticket
-[20:58:57 TRACE SMAPI]    Mod blacklist OK.
-[20:58:57 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
-[20:58:58 TRACE game] Signing into GalaxySDK
-[20:58:58 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[20:58:58 TRACE game] Galaxy auth success
-[20:58:58 TRACE game] Galaxy signed in
-[20:58:58 TRACE game] Galaxy logged on
-[20:58:59 TRACE game] Successfully set GOG Galaxy profile name.
-[21:00:01 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
-[21:00:01 TRACE SMAPI]    task complete.
-[21:00:11 TRACE SMAPI] Synchronizing 'Find Save Games' task...
-[21:00:12 TRACE SMAPI]    task complete.
-[21:00:13 TRACE game] Successfully loaded ContentHashes.json containing 3560 file(s);
-[21:00:13 TRACE game] EnsureManifestInitialized() finished, elapsed = '00:00:00.0060184'
-[21:00:27 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
-[21:00:27 TRACE SMAPI] Game loader synchronizing...
-[21:00:27 TRACE game] getLoadEnumerator('SaltyFlies_419692006')
-[21:00:27 TRACE SMAPI] Synchronizing 'Load_ReadSave' task...
-[21:00:29 TRACE SMAPI]    task complete.
-[21:00:30 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
-[21:00:30 TRACE SMAPI]    task complete.
-[21:00:30 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
-[21:00:30 TRACE SMAPI]    task complete.
-[21:00:30 TRACE SMAPI] Synchronizing 'Load_Locations' task...
-[21:00:31 TRACE SMAPI]    task complete.
-[21:00:31 TRACE game] Starting server. Protocol version: 1.6.15
-[21:00:31 TRACE game] Starting LAN server
-[21:00:31 TRACE game] Starting Steam server
-[21:00:31 TRACE game] Starting Galaxy server
-[21:00:31 TRACE game] Creating lobby...
-[21:00:31 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
-[21:00:31 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:04.1058662'
-[21:00:31 TRACE game] setGameMode( 'playingGameMode (3)' )
-[21:00:31 TRACE SMAPI] Game loader done.
-[21:00:31 TRACE game] Steam server successfully created lobby 109775244158693333
-[21:00:31 TRACE game] Updated Galaxy server with Steam lobby info
-[21:00:31 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:00:32 TRACE SMAPI] Context: loaded save 'SaltyFlies_419692006', starting summer 16 Y2, locale set to . Main player with 1 player online.
-[21:00:39 TRACE game] Lobby entered: 131258847156201145
-[21:00:56 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:00:57 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:01:02 TRACE game] Warping to Farm
-[21:01:02 TRACE game] 76561198258524610 connecting to server
-[21:01:03 TRACE game] 76561198258524610 connected to server
-[21:01:03 TRACE game] Sending available farmhands to connection ID SN_76561198258524610_606916816
-[21:01:05 TRACE game] Warping to FarmHouse
-[21:01:11 TRACE game] Warping to Farm
-[21:01:13 TRACE game] 76561198076775394 connecting to server
-[21:01:13 TRACE game] 76561198076775394 connected to server
-[21:01:13 TRACE game] Sending available farmhands to connection ID SN_76561198076775394_3657860843
-[21:01:13 TRACE SMAPI] Received connection for vanilla player 2429868676127953733.
-[21:01:13 TRACE game] Server received farmhand request from 76561198258524610 for 2429868676127953733
-[21:01:13 TRACE game] Approved request for farmhand 2429868676127953733
-[21:01:13 TRACE game] Server accepted 76561198258524610 as farmhand 2429868676127953733
-[21:01:21 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:01:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:01:21 TRACE SMAPI] Received connection for vanilla player -4113110407996540605.
-[21:01:21 TRACE game] Server received farmhand request from 76561198076775394 for -4113110407996540605
-[21:01:21 TRACE game] Approved request for farmhand -4113110407996540605
-[21:01:21 TRACE game] Server accepted 76561198076775394 as farmhand -4113110407996540605
-[21:01:26 TRACE game] 76561199383366845 connecting to server
-[21:01:26 TRACE game] 76561199383366845 connected to server
-[21:01:26 TRACE game] Sending available farmhands to connection ID SN_76561199383366845_2075560516
-[21:01:35 TRACE SMAPI] Received connection for vanilla player 7728742993364419467.
-[21:01:35 TRACE game] Server received farmhand request from 76561199383366845 for 7728742993364419467
-[21:01:35 TRACE game] Approved request for farmhand 7728742993364419467
-[21:01:35 TRACE game] Server accepted 76561199383366845 as farmhand 7728742993364419467
-[21:01:53 TRACE game] 76561198812170897 connecting to server
-[21:01:54 TRACE game] 76561198812170897 connected to server
-[21:01:54 TRACE game] Sending available farmhands to connection ID SN_76561198812170897_378199823
-[21:01:56 TRACE game] Warping to Forest
-[21:02:00 TRACE SMAPI] Received context for farmhand -3295417140522807361 running SMAPI 4.3.2 with 6 mods.
-[21:02:00 TRACE game] Server received farmhand request from 76561198812170897 for -3295417140522807361
-[21:02:00 TRACE game] Approved request for farmhand -3295417140522807361
-[21:02:00 TRACE game] Server accepted 76561198812170897 as farmhand -3295417140522807361
-[21:10:25 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:10:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:10:27 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:10:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:11:18 TRACE game] Warping to Farm
-[21:12:01 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:12:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:12:07 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[21:12:33 TRACE game] Warping to Farm
-[21:12:42 TRACE game] Warping to FarmHouse
-[21:13:04 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:13:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:14:01 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:14:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:14:03 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:14:03 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:14:05 TRACE game] Warping to Farm
-[21:14:11 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:14:11 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:14:12 TRACE game] Warping to FarmHouse
-[21:15:13 TRACE SMAPI] Synchronizing 'NewDay' task...
-[21:15:16 TRACE SMAPI]    task complete.
-[21:15:43 TRACE SMAPI] Context: before save.
-[21:15:43 TRACE game] SaveGame.Save() called.
-[21:15:43 TRACE SMAPI] Synchronizing 'Save' task...
-[21:15:43 TRACE game] Saving without compression...
-[21:15:44 TRACE SMAPI]    task complete.
-[21:15:44 TRACE game] SaveGame.Save() completed without exceptions.
-[21:15:46 TRACE SMAPI] Context: after save, starting summer 17 Y2.
-[21:15:49 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:15:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:16:47 TRACE game] Warping to Farm
-[21:16:51 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:16:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:17:02 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[21:17:46 TRACE game] Warping to Farm
-[21:17:54 TRACE game] Warping to FarmCave
-[21:18:00 TRACE game] Warping to Farm
-[21:18:11 TRACE game] Warping to FarmHouse
-[21:19:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:19:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:19:22 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:19:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:19:24 TRACE game] Warping to Farm
-[21:19:38 TRACE game] Warping to Backwoods
-[21:19:49 TRACE game] Warping to Mountain
-[21:19:53 TRACE game] Warping to Mountain
-[21:20:02 TRACE game] Warping to ScienceHouse
-[21:20:06 TRACE game] Warping to ScienceHouse
-[21:20:41 TRACE game] Warping to ScienceHouse
-[21:20:45 TRACE game] Warping to Mountain
-[21:20:49 TRACE game] Warping to Mountain
-[21:21:37 TRACE game] Warping to BusStop
-[21:21:45 TRACE game] Warping to Farm
-[21:21:49 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:21:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:21:55 TRACE game] Warping to FarmHouse
-[21:22:10 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:22:10 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:22:25 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:22:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:22:50 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:22:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:22:53 TRACE game] Warping to Farm
-[21:22:59 TRACE game] Warping to BusStop
-[21:23:08 TRACE game] Warping to Mountain
-[21:24:01 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:24:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:24:21 TRACE game] Warping to Mine
-[21:24:26 TRACE game] Warping to UndergroundMine20
-[21:24:31 TRACE game] Warping to UndergroundMine30
-[21:24:33 TRACE game] Warping to UndergroundMine31
-[21:24:49 TRACE game] Warping to UndergroundMine32
-[21:25:12 TRACE game] Warping to UndergroundMine33
-[21:25:24 TRACE game] Warping to UndergroundMine34
-[21:25:53 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:25:53 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:26:11 TRACE game] Warping to UndergroundMine35
-[21:26:31 TRACE game] Warping to UndergroundMine36
-[21:27:10 TRACE game] Warping to UndergroundMine37
-[21:27:36 TRACE game] Warping to UndergroundMine38
-[21:28:34 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:28:34 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:28:36 TRACE game] Warping to UndergroundMine39
-[21:29:24 TRACE game] Warping to Mine
-[21:29:28 TRACE game] Warping to BusStop
-[21:29:36 TRACE game] Warping to Farm
-[21:29:41 TRACE game] Warping to FarmHouse
-[21:30:05 TRACE SMAPI] Synchronizing 'NewDay' task...
-[21:30:08 TRACE SMAPI]    task complete.
-[21:30:31 TRACE game] Warping to FarmHouse
-[21:30:38 TRACE SMAPI] Context: before save.
-[21:30:41 TRACE game] SaveGame.Save() called.
-[21:30:41 TRACE SMAPI] Synchronizing 'Save' task...
-[21:30:41 TRACE game] Saving without compression...
-[21:30:41 TRACE SMAPI]    task complete.
-[21:30:41 TRACE game] SaveGame.Save() completed without exceptions.
-[21:30:43 TRACE SMAPI] Context: after save, starting summer 18 Y2.
-[21:32:12 TRACE game] Warping to Farm
-[21:32:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:32:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:32:26 TRACE game] Warping to FarmHouse
-[21:33:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:33:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:33:29 TRACE game] Warping to Farm
-[21:33:53 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[21:33:55 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:33:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:34:19 TRACE game] Warping to Farm
-[21:34:27 TRACE game] Warping to FarmHouse
-[21:34:51 TRACE game] Warping to Farm
-[21:34:54 TRACE game] Warping to FarmHouse
-[21:34:58 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:34:58 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:35:33 TRACE game] Warping to Farm
-[21:35:39 TRACE game] Warping to FarmHouse
-[21:35:52 TRACE game] Warping to Farm
-[21:36:03 TRACE game] Warping to BusStop
-[21:36:12 TRACE game] Warping to Town
-[21:36:16 TRACE game] Warping to Town
-[21:36:19 TRACE game] Warping to Town
-[21:36:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:36:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:37:59 TRACE game] Warping to BusStop
-[21:38:02 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:38:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:38:05 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:38:05 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:38:14 TRACE game] Warping to Mine
-[21:38:20 TRACE game] Warping to UndergroundMine30
-[21:38:21 TRACE game] Warping to UndergroundMine31
-[21:38:29 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:38:29 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:38:59 TRACE game] Warping to UndergroundMine32
-[21:39:43 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:39:43 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:40:12 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:40:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:40:14 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:40:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:40:21 TRACE game] Warping to UndergroundMine33
-[21:40:35 TRACE game] Warping to UndergroundMine34
-[21:41:23 TRACE game] Warping to UndergroundMine35
-[21:41:34 TRACE game] Warping to UndergroundMine36
-[21:41:59 TRACE game] Warping to UndergroundMine37
-[21:42:20 TRACE game] Warping to UndergroundMine38
-[21:42:49 TRACE game] Warping to UndergroundMine39
-[21:43:14 TRACE game] Warping to UndergroundMine40
-[21:43:19 TRACE game] Warping to Mine
-[21:43:24 TRACE game] Warping to UndergroundMine30
-[21:43:26 TRACE game] Warping to UndergroundMine31
-[21:43:51 TRACE game] Warping to UndergroundMine32
-[21:44:03 TRACE game] Warping to UndergroundMine33
-[21:44:19 TRACE game] Warping to UndergroundMine34
-[21:44:41 TRACE game] Warping to Mine
-[21:44:46 TRACE game] Warping to BusStop
-[21:44:53 TRACE game] Warping to Farm
-[21:44:58 TRACE game] Warping to FarmHouse
-[21:45:02 TRACE SMAPI] Synchronizing 'NewDay' task...
-[21:45:04 TRACE SMAPI]    task complete.
-[21:45:11 TRACE SMAPI] Context: before save.
-[21:45:20 TRACE game] SaveGame.Save() called.
-[21:45:20 TRACE SMAPI] Synchronizing 'Save' task...
-[21:45:20 TRACE game] Saving without compression...
-[21:45:21 TRACE SMAPI]    task complete.
-[21:45:21 TRACE game] SaveGame.Save() completed without exceptions.
-[21:45:22 TRACE SMAPI] Context: after save, starting summer 19 Y2.
-[21:46:18 TRACE game] Warping to Farm
-[21:46:22 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:46:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:46:28 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[21:46:51 TRACE game] Warping to Farm
-[21:46:57 TRACE game] Warping to FarmHouse
-[21:47:19 TRACE game] Warping to FarmHouse
-[21:47:20 TRACE game] Warping to Farm
-[21:47:21 TRACE game] Warping to FarmHouse
-[21:47:44 TRACE game] Warping to Farm
-[21:47:51 TRACE game] Warping to FarmHouse
-[21:48:14 TRACE game] Warping to Farm
-[21:48:19 TRACE game] Warping to BusStop
-[21:48:36 TRACE game] Warping to Mine
-[21:48:40 TRACE game] Warping to UndergroundMine60
-[21:48:42 TRACE game] Warping to UndergroundMine61
-[21:49:04 TRACE game] Warping to UndergroundMine62
-[21:49:32 TRACE game] Warping to UndergroundMine63
-[21:50:06 TRACE game] Warping to UndergroundMine64
-[21:51:05 TRACE game] Warping to UndergroundMine65
-[21:51:28 TRACE game] Warping to UndergroundMine66
-[21:51:58 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:51:58 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:52:07 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[21:52:07 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[21:52:32 TRACE game] Warping to UndergroundMine67
-[21:53:13 TRACE game] Warping to UndergroundMine68
-[21:54:13 TRACE game] Warping to UndergroundMine69
-[21:55:02 TRACE game] Warping to UndergroundMine70
-[21:55:05 TRACE game] Warping to Mine
-[21:55:10 TRACE game] Warping to UndergroundMine60
-[21:55:12 TRACE game] Warping to UndergroundMine61
-[21:55:28 TRACE game] Warping to UndergroundMine62
-[21:56:11 TRACE game] Warping to UndergroundMine63
-[21:56:52 TRACE game] Warping to UndergroundMine64
-[21:57:41 TRACE game] Warping to UndergroundMine65
-[21:57:54 TRACE game] Warping to UndergroundMine66
-[21:58:08 TRACE game] Warping to UndergroundMine67
-[21:58:43 TRACE game] Warping to UndergroundMine68
-[21:58:45 TRACE game] Warping to Mine
-[21:58:50 TRACE game] Warping to BusStop
-[21:58:57 TRACE game] Warping to Farm
-[21:59:05 TRACE game] Warping to FarmHouse
-[21:59:54 TRACE SMAPI] Synchronizing 'NewDay' task...
-[21:59:56 TRACE SMAPI]    task complete.
-[22:00:28 TRACE SMAPI] Context: before save.
-[22:01:34 TRACE game] SaveGame.Save() called.
-[22:01:35 TRACE SMAPI] Synchronizing 'Save' task...
-[22:01:35 TRACE game] Saving without compression...
-[22:01:35 TRACE SMAPI]    task complete.
-[22:01:35 TRACE game] SaveGame.Save() completed without exceptions.
-[22:01:39 TRACE SMAPI] Context: after save, starting summer 20 Y2.
-[22:03:06 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:03:06 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:03:11 TRACE game] Warping to Farm
-[22:03:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:03:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:03:29 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[22:03:48 TRACE game] Warping to Farm
-[22:03:56 TRACE game] Warping to FarmCave
-[22:04:02 TRACE game] Warping to Farm
-[22:04:12 TRACE game] Warping to FarmHouse
-[22:04:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:04:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:05:31 TRACE game] Warping to Farm
-[22:05:41 TRACE game] Warping to Backwoods
-[22:05:50 TRACE game] Warping to Mountain
-[22:05:58 TRACE game] Warping to ScienceHouse
-[22:06:18 TRACE game] Warping to ScienceHouse
-[22:06:22 TRACE game] Warping to Mountain
-[22:06:34 TRACE game] Warping to Railroad
-[22:07:15 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:07:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:07:46 TRACE game] Warping to Mountain
-[22:07:59 TRACE game] Warping to Mine
-[22:08:07 TRACE game] Warping to UndergroundMine60
-[22:08:09 TRACE game] Warping to UndergroundMine61
-[22:08:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:08:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:08:33 TRACE game] Warping to UndergroundMine62
-[22:09:02 TRACE game] Warping to UndergroundMine63
-[22:09:32 TRACE game] Warping to UndergroundMine64
-[22:10:18 TRACE game] Warping to UndergroundMine65
-[22:10:39 TRACE game] Warping to UndergroundMine66
-[22:10:58 TRACE game] Warping to UndergroundMine67
-[22:11:14 TRACE game] Warping to UndergroundMine68
-[22:12:16 TRACE game] Warping to UndergroundMine69
-[22:13:01 TRACE game] Warping to UndergroundMine70
-[22:13:02 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:13:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:13:05 TRACE game] Warping to Mine
-[22:13:08 TRACE game] Warping to Mountain
-[22:13:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:13:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:13:31 TRACE game] Warping to Mine
-[22:13:33 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:13:33 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:13:36 TRACE game] Warping to UndergroundMine110
-[22:13:38 TRACE game] Warping to UndergroundMine111
-[22:14:19 TRACE game] Warping to UndergroundMine112
-[22:14:51 TRACE game] Warping to UndergroundMine113
-[22:14:54 TRACE game] Warping to Mine
-[22:14:58 TRACE game] Warping to BusStop
-[22:15:06 TRACE game] Warping to Farm
-[22:15:13 TRACE game] Warping to FarmHouse
-[22:15:16 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:15:16 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:16:14 TRACE SMAPI] Synchronizing 'NewDay' task...
-[22:16:16 TRACE SMAPI]    task complete.
-[22:16:31 TRACE SMAPI] Context: before save.
-[22:16:39 TRACE game] SaveGame.Save() called.
-[22:16:39 TRACE SMAPI] Synchronizing 'Save' task...
-[22:16:39 TRACE game] Saving without compression...
-[22:16:39 TRACE SMAPI]    task complete.
-[22:16:39 TRACE game] SaveGame.Save() completed without exceptions.
-[22:16:41 TRACE SMAPI] Context: after save, starting summer 21 Y2.
-[22:17:14 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:17:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:17:43 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:17:43 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:18:31 TRACE game] Warping to Farm
-[22:18:43 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:18:43 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:18:49 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[22:19:12 TRACE game] Warping to Farm
-[22:19:28 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:19:28 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:19:30 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:19:30 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:19:32 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:19:32 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:19:36 TRACE game] Warping to FarmHouse
-[22:20:03 TRACE game] Warping to Farm
-[22:20:18 TRACE game] Warping to Forest
-[22:20:36 TRACE game] Warping to MasteryCave
-[22:21:02 TRACE game] Warping to Forest
-[22:21:21 TRACE game] Warping to Farm
-[22:21:35 TRACE game] Warping to FarmHouse
-[22:21:40 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:21:40 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:21:49 TRACE game] Warping to Farm
-[22:21:53 TRACE game] Warping to BusStop
-[22:22:07 TRACE game] Warping to Desert
-[22:23:16 TRACE game] Warping to SkullCave
-[22:23:19 TRACE game] Warping to UndergroundMine121
-[22:24:57 TRACE game] Warping to UndergroundMine124
-[22:26:36 TRACE game] Warping to UndergroundMine125
-[22:27:07 TRACE game] Warping to UndergroundMine126
-[22:27:43 TRACE game] Warping to UndergroundMine127
-[22:28:22 TRACE game] Warping to UndergroundMine128
-[22:29:16 TRACE game] Warping to UndergroundMine129
-[22:29:53 TRACE game] Warping to UndergroundMine130
-[22:30:36 TRACE game] Warping to UndergroundMine131
-[22:31:24 TRACE game] Warping to FarmHouse
-[22:31:25 TRACE SMAPI] Synchronizing 'NewDay' task...
-[22:31:27 TRACE SMAPI]    task complete.
-[22:31:35 TRACE SMAPI] Context: before save.
-[22:31:37 TRACE game] SaveGame.Save() called.
-[22:31:37 TRACE SMAPI] Synchronizing 'Save' task...
-[22:31:37 TRACE game] Saving without compression...
-[22:31:38 TRACE SMAPI]    task complete.
-[22:31:38 TRACE game] SaveGame.Save() completed without exceptions.
-[22:31:39 TRACE SMAPI] Context: after save, starting summer 22 Y2.
-[22:31:44 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:31:44 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:32:03 TRACE game] 76561199383366845 disconnected from server
-[22:32:03 TRACE SMAPI] Player quit: 7728742993364419467
-[22:32:36 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:32:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:33:04 TRACE game] Warping to Farm
-[22:33:09 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:33:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:33:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:33:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:33:23 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:33:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:33:25 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:33:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:33:32 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[22:34:34 TRACE game] Warping to Farm
-[22:34:42 TRACE game] Warping to FarmCave
-[22:34:47 TRACE game] Warping to Farm
-[22:34:57 TRACE game] Warping to FarmHouse
-[22:36:09 TRACE game] Warping to Farm
-[22:36:10 TRACE game] Warping to FarmHouse
-[22:36:15 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:36:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:36:22 TRACE game] Warping to Farm
-[22:36:37 TRACE game] Warping to Forest
-[22:36:49 TRACE game] Warping to AnimalShop
-[22:36:51 TRACE game] Warping to Forest
-[22:36:53 TRACE game] Warping to AnimalShop
-[22:37:21 TRACE game] Warping to AnimalShop
-[22:37:57 TRACE game] Warping to AnimalShop
-[22:38:23 TRACE game] Warping to AnimalShop
-[22:39:16 TRACE game] Warping to AnimalShop
-[22:39:19 TRACE game] Warping to Forest
-[22:39:28 TRACE game] Warping to Farm
-[22:39:45 TRACE game] Warping to Barn00bc7ba3-a549-4ef5-a88a-1e56c2afc731
-[22:39:59 TRACE game] Warping to Farm
-[22:40:14 TRACE game] Warping to Forest
-[22:40:22 TRACE game] Warping to AnimalShop
-[22:40:40 TRACE game] Warping to AnimalShop
-[22:40:43 TRACE game] Warping to Forest
-[22:42:06 TRACE game] Warping to Farm
-[22:42:19 TRACE game] Warping to Backwoods
-[22:42:37 TRACE game] Warping to Mountain
-[22:42:41 TRACE game] Warping to Railroad
-[22:45:19 TRACE game] Warping to Mountain
-[22:45:23 TRACE game] Warping to Backwoods
-[22:45:32 TRACE game] Warping to Farm
-[22:45:41 TRACE game] Warping to FarmHouse
-[22:45:45 TRACE SMAPI] Synchronizing 'NewDay' task...
-[22:45:47 TRACE SMAPI]    task complete.
-[22:45:56 TRACE SMAPI] Context: before save.
-[22:46:00 TRACE game] SaveGame.Save() called.
-[22:46:00 TRACE SMAPI] Synchronizing 'Save' task...
-[22:46:00 TRACE game] Saving without compression...
-[22:46:00 TRACE SMAPI]    task complete.
-[22:46:00 TRACE game] SaveGame.Save() completed without exceptions.
-[22:46:02 TRACE SMAPI] Context: after save, starting summer 23 Y2.
-[22:46:50 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:46:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:47:14 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:47:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:47:34 TRACE game] Warping to Desert
-[22:47:54 TRACE game] Warping to SkullCave
-[22:48:00 TRACE game] Warping to UndergroundMine121
-[22:48:03 TRACE game] Warping to UndergroundMine122
-[22:48:07 TRACE game] Warping to UndergroundMine123
-[22:48:08 TRACE game] Warping to UndergroundMine124
-[22:48:11 TRACE game] Warping to UndergroundMine125
-[22:48:14 TRACE game] Warping to UndergroundMine126
-[22:48:15 TRACE game] Warping to UndergroundMine127
-[22:48:17 TRACE game] Warping to UndergroundMine128
-[22:48:19 TRACE game] Warping to UndergroundMine129
-[22:48:22 TRACE game] Warping to UndergroundMine130
-[22:48:24 TRACE game] Warping to UndergroundMine131
-[22:48:25 TRACE game] Warping to UndergroundMine132
-[22:48:31 TRACE game] Warping to UndergroundMine133
-[22:48:32 TRACE game] Warping to UndergroundMine134
-[22:48:34 TRACE game] Warping to UndergroundMine135
-[22:48:36 TRACE game] Warping to UndergroundMine136
-[22:48:37 TRACE game] Warping to UndergroundMine137
-[22:48:41 TRACE game] Warping to UndergroundMine138
-[22:48:44 TRACE game] Warping to UndergroundMine139
-[22:48:46 TRACE game] Warping to UndergroundMine140
-[22:48:48 TRACE game] Warping to UndergroundMine141
-[22:48:50 TRACE game] Warping to UndergroundMine142
-[22:49:03 TRACE game] Warping to UndergroundMine143
-[22:49:06 TRACE game] Warping to UndergroundMine144
-[22:49:08 TRACE game] Warping to UndergroundMine145
-[22:49:10 TRACE game] Warping to UndergroundMine146
-[22:49:14 TRACE game] Warping to UndergroundMine147
-[22:49:19 TRACE game] Warping to UndergroundMine148
-[22:49:27 TRACE game] Warping to UndergroundMine149
-[22:49:29 TRACE game] Warping to UndergroundMine150
-[22:49:31 TRACE game] Warping to UndergroundMine151
-[22:49:33 TRACE game] Warping to UndergroundMine152
-[22:50:21 TRACE game] Warping to UndergroundMine153
-[22:50:27 TRACE game] Warping to UndergroundMine154
-[22:50:31 TRACE game] Warping to UndergroundMine155
-[22:50:40 TRACE game] Warping to UndergroundMine156
-[22:50:44 TRACE game] Warping to UndergroundMine157
-[22:50:46 TRACE game] Warping to UndergroundMine158
-[22:50:48 TRACE game] Warping to UndergroundMine159
-[22:50:53 TRACE game] Warping to UndergroundMine160
-[22:51:06 TRACE game] Warping to UndergroundMine161
-[22:51:08 TRACE game] Warping to UndergroundMine162
-[22:51:10 TRACE game] Warping to UndergroundMine163
-[22:51:12 TRACE game] Warping to UndergroundMine164
-[22:52:21 TRACE game] Warping to UndergroundMine165
-[22:52:46 TRACE game] Warping to UndergroundMine166
-[22:52:48 TRACE game] Warping to UndergroundMine167
-[22:52:50 TRACE game] Warping to UndergroundMine168
-[22:53:00 TRACE game] Warping to UndergroundMine169
-[22:53:14 TRACE game] Warping to UndergroundMine170
-[22:53:22 TRACE game] Warping to UndergroundMine171
-[22:54:02 TRACE game] Warping to UndergroundMine172
-[22:54:15 TRACE game] Warping to UndergroundMine173
-[22:54:24 TRACE game] Warping to UndergroundMine174
-[22:54:54 TRACE game] Warping to UndergroundMine175
-[22:55:24 TRACE game] Warping to UndergroundMine176
-[22:55:26 TRACE game] Warping to UndergroundMine177
-[22:55:28 TRACE game] Warping to UndergroundMine178
-[22:55:37 TRACE game] Warping to UndergroundMine179
-[22:55:39 TRACE game] Warping to UndergroundMine180
-[22:55:44 TRACE game] Warping to UndergroundMine181
-[22:55:49 TRACE game] Warping to UndergroundMine182
-[22:56:26 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:56:26 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:56:31 TRACE game] Warping to UndergroundMine183
-[22:56:45 TRACE game] Warping to UndergroundMine184
-[22:56:53 TRACE game] Warping to UndergroundMine185
-[22:56:55 TRACE game] Warping to UndergroundMine186
-[22:57:05 TRACE game] Warping to UndergroundMine187
-[22:57:07 TRACE game] Warping to UndergroundMine188
-[22:57:08 TRACE game] Warping to UndergroundMine189
-[22:57:10 TRACE game] Warping to UndergroundMine190
-[22:57:12 TRACE game] Warping to UndergroundMine191
-[22:57:14 TRACE game] Warping to UndergroundMine192
-[22:57:17 TRACE game] Warping to UndergroundMine193
-[22:57:21 TRACE game] Warping to UndergroundMine194
-[22:57:59 TRACE game] Warping to UndergroundMine195
-[22:58:01 TRACE game] Warping to UndergroundMine196
-[22:58:03 TRACE game] Warping to UndergroundMine197
-[22:58:33 TRACE game] Warping to UndergroundMine198
-[22:59:22 TRACE game] Warping to UndergroundMine199
-[22:59:29 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[22:59:29 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[22:59:31 TRACE game] Warping to UndergroundMine200
-[22:59:38 TRACE game] Warping to UndergroundMine201
-[22:59:39 TRACE game] Warping to UndergroundMine202
-[23:00:05 TRACE game] Warping to UndergroundMine203
-[23:00:25 TRACE game] Warping to UndergroundMine204
-[23:00:27 TRACE game] Warping to UndergroundMine205
-[23:00:37 TRACE game] Warping to UndergroundMine206
-[23:00:40 TRACE game] Warping to UndergroundMine207
-[23:00:45 TRACE game] Warping to FarmHouse
-[23:00:46 TRACE SMAPI] Synchronizing 'NewDay' task...
-[23:00:48 TRACE SMAPI]    task complete.
-[23:00:48 TRACE SMAPI] Context: before save.
-[23:00:58 TRACE game] SaveGame.Save() called.
-[23:00:58 TRACE SMAPI] Synchronizing 'Save' task...
-[23:00:58 TRACE game] Saving without compression...
-[23:00:58 TRACE SMAPI]    task complete.
-[23:00:58 TRACE game] SaveGame.Save() completed without exceptions.
-[23:01:02 TRACE SMAPI] Context: after save, starting summer 24 Y2.
-[23:01:04 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[23:01:04 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[23:01:09 TRACE game] 76561198812170897 disconnected from server
-[23:01:09 TRACE SMAPI] Player quit: -3295417140522807361
-[23:01:12 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[23:01:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[23:01:14 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[23:01:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[23:01:19 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
-[23:01:19 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
-[23:01:21 TRACE game] Stopping LAN server
-[23:01:21 TRACE game] Stopping Steam server
-[23:01:21 TRACE game] 76561198258524610 disconnected from server
-[23:01:21 TRACE game] 76561198076775394 disconnected from server
-[23:01:21 TRACE game] Stopping Galaxy server
-[23:01:21 TRACE game] Disconnected: ClosedGame
-[23:01:21 TRACE SMAPI] Disposing...
-[23:01:21 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
+[14:01:48 DEBUG SMAPI] Launching mods...
+[14:01:48 DEBUG SMAPI] Mods loaded and ready!
+[14:01:48 TRACE SMAPI] Checking for known software conflicts...
+[14:01:48 TRACE SMAPI]    None found!
+[14:01:49 TRACE SMAPI] Checking for updates...
+[14:01:49 TRACE Save Backup] Backed up to D:\ProgramFiles\Steam\steamapps\common\Stardew Valley\save-backups\2025-12-01 - SMAPI 4.3.2 with Stardew Valley 1.6.15.zip.
+[14:01:50 TRACE SMAPI]    SMAPI okay.
+[14:01:50 TRACE SMAPI]    Checking for updates to 1 mods...
+[14:01:50 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[14:01:50 TRACE SMAPI]    All mods up to date.
+[14:01:51 TRACE SMAPI] Running on GPU: NVIDIA GeForce RTX 2060/PCIe/SSE2
+[14:01:51 TRACE game] Instance_LoadContent() finished, elapsed = '00:00:04.5675220'
+[14:01:51 TRACE game] Steam logged on: True
+[14:01:51 TRACE game] Initializing GalaxySDK
+[14:01:51 TRACE game] Requesting Steam app ticket
+[14:01:51 TRACE SMAPI]    Mod blacklist OK.
+[14:01:52 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[14:01:52 TRACE game] Signing into GalaxySDK
+[14:01:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:01:53 TRACE game] Galaxy auth success
+[14:01:53 TRACE game] Galaxy signed in
+[14:01:53 TRACE game] Galaxy logged on
+[14:01:54 TRACE game] Successfully set GOG Galaxy profile name.
+[14:02:16 TRACE SMAPI] Synchronizing 'Farm_SpaceCheck' task...
+[14:02:16 TRACE SMAPI]    task complete.
+[14:02:23 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[14:02:24 TRACE SMAPI]    task complete.
+[14:02:26 TRACE game] Successfully loaded ContentHashes.json containing 3560 file(s);
+[14:02:26 TRACE game] EnsureManifestInitialized() finished, elapsed = '00:00:00.0088683'
+[14:02:38 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[14:02:38 TRACE SMAPI] Game loader synchronizing...
+[14:02:38 TRACE game] getLoadEnumerator('Kwason_422954723')
+[14:02:38 TRACE SMAPI] Synchronizing 'Load_ReadSave' task...
+[14:02:40 TRACE SMAPI]    task complete.
+[14:02:40 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[14:02:41 TRACE SMAPI]    task complete.
+[14:02:41 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[14:02:41 TRACE SMAPI]    task complete.
+[14:02:41 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[14:02:41 TRACE SMAPI]    task complete.
+[14:02:41 TRACE game] Starting server. Protocol version: 1.6.15
+[14:02:41 TRACE game] Starting LAN server
+[14:02:41 TRACE game] Starting Steam server
+[14:02:41 TRACE game] Starting Galaxy server
+[14:02:41 TRACE game] Creating lobby...
+[14:02:41 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[14:02:42 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:03.7671547'
+[14:02:42 TRACE game] setGameMode( 'playingGameMode (3)' )
+[14:02:42 TRACE SMAPI] Game loader done.
+[14:02:42 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:02:42 TRACE game] Steam server successfully created lobby 109775244478235808
+[14:02:42 TRACE game] Updated Galaxy server with Steam lobby info
+[14:02:42 TRACE SMAPI] Context: loaded save 'Kwason_422954723', starting spring 4 Y2, locale set to . Main player with 1 player online.
+[14:02:50 TRACE game] Lobby entered: 131266703390488420
+[14:02:52 TRACE game] 76561198258524610 connecting to server
+[14:02:52 TRACE game] 76561198258524610 connected to server
+[14:02:52 TRACE game] Sending available farmhands to connection ID SN_76561198258524610_3896913605
+[14:03:03 TRACE SMAPI] Received connection for vanilla player 1173409391573528899.
+[14:03:03 TRACE game] Server received farmhand request from 76561198258524610 for 1173409391573528899
+[14:03:03 TRACE game] Approved request for farmhand 1173409391573528899
+[14:03:03 TRACE game] Server accepted 76561198258524610 as farmhand 1173409391573528899
+[14:03:40 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:03:40 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:03:43 TRACE game] Warping to Farm
+[14:04:07 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[14:04:46 TRACE game] Warping to Farm
+[14:04:57 TRACE game] Warping to Coop53a467f1-de19-4632-9b7b-dc1466f4e48a
+[14:05:35 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:05:35 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:05:39 TRACE game] Warping to Farm
+[14:06:02 TRACE game] Warping to Greenhouse
+[14:06:12 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:06:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:06:15 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:06:15 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:06:18 TRACE game] Warping to Farm
+[14:06:24 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:06:44 TRACE game] Warping to Farm
+[14:07:04 TRACE game] Warping to Backwoods
+[14:07:20 TRACE game] Warping to Mountain
+[14:07:25 TRACE game] Warping to Railroad
+[14:09:01 TRACE game] Warping to BathHouse_Entry
+[14:09:04 TRACE game] Warping to BathHouse_MensLocker
+[14:09:15 TRACE game] Warping to BathHouse_Pool
+[14:09:58 TRACE game] Warping to BathHouse_MensLocker
+[14:10:09 TRACE game] Warping to BathHouse_Entry
+[14:10:11 TRACE game] Warping to Railroad
+[14:10:17 TRACE game] Warping to Mountain
+[14:10:31 TRACE game] Warping to Mine
+[14:10:37 TRACE game] Warping to UndergroundMine30
+[14:10:39 TRACE game] Warping to UndergroundMine31
+[14:11:13 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:11:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:11:26 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:11:26 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:11:32 TRACE game] Warping to UndergroundMine32
+[14:12:28 TRACE game] Warping to UndergroundMine33
+[14:12:41 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:12:41 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:13:36 TRACE game] Warping to UndergroundMine34
+[14:14:15 TRACE game] Warping to UndergroundMine35
+[14:14:34 TRACE game] Warping to UndergroundMine36
+[14:15:14 TRACE game] Warping to UndergroundMine37
+[14:15:51 TRACE game] Warping to UndergroundMine38
+[14:16:29 TRACE game] Warping to Mine
+[14:16:34 TRACE game] Warping to BusStop
+[14:16:44 TRACE game] Warping to Farm
+[14:16:50 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:16:58 TRACE SMAPI] Synchronizing 'NewDay' task...
+[14:17:00 TRACE SMAPI]    task complete.
+[14:17:16 TRACE SMAPI] Context: before save.
+[14:17:16 TRACE game] SaveGame.Save() called.
+[14:17:16 TRACE SMAPI] Synchronizing 'Save' task...
+[14:17:16 TRACE game] Saving without compression...
+[14:17:17 TRACE SMAPI]    task complete.
+[14:17:17 TRACE game] SaveGame.Save() completed without exceptions.
+[14:17:18 TRACE SMAPI] Context: after save, starting spring 5 Y2.
+[14:18:05 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:18:05 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:19:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:19:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:19:26 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:19:26 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:19:48 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:19:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:19:54 TRACE game] Warping to Farm
+[14:20:04 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[14:20:46 TRACE game] Warping to Farm
+[14:20:52 TRACE game] Warping to Coop53a467f1-de19-4632-9b7b-dc1466f4e48a
+[14:21:23 TRACE game] Warping to Farm
+[14:21:52 TRACE game] Warping to FarmCave
+[14:21:56 TRACE game] Warping to Farm
+[14:22:11 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:22:27 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:22:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:22:33 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:22:33 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:22:36 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:22:36 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:22:38 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:22:38 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:22:51 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:22:51 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:23:12 TRACE game] Warping to Farm
+[14:23:20 TRACE game] Warping to Shedb8cf88bf-b940-403d-9ec4-6cdbbb8a4126
+[14:24:37 TRACE game] Warping to Farm
+[14:25:35 TRACE game] Warping to BusStop
+[14:25:51 TRACE game] Warping to Mine
+[14:25:56 TRACE game] Warping to UndergroundMine60
+[14:25:58 TRACE game] Warping to UndergroundMine61
+[14:26:16 TRACE game] Warping to UndergroundMine62
+[14:26:37 TRACE game] Warping to UndergroundMine63
+[14:27:18 TRACE game] Warping to UndergroundMine64
+[14:28:17 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:28:17 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:28:22 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:28:22 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:28:36 TRACE game] Warping to UndergroundMine65
+[14:28:42 TRACE game] Warping to UndergroundMine66
+[14:29:35 TRACE game] Warping to UndergroundMine67
+[14:30:24 TRACE game] Warping to UndergroundMine68
+[14:30:39 TRACE game] Warping to Mine
+[14:30:44 TRACE game] Warping to BusStop
+[14:30:52 TRACE game] Warping to Farm
+[14:30:58 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:31:11 TRACE SMAPI] Synchronizing 'NewDay' task...
+[14:31:13 TRACE SMAPI]    task complete.
+[14:31:19 TRACE SMAPI] Context: before save.
+[14:31:22 TRACE game] SaveGame.Save() called.
+[14:31:22 TRACE SMAPI] Synchronizing 'Save' task...
+[14:31:22 TRACE game] Saving without compression...
+[14:31:22 TRACE SMAPI]    task complete.
+[14:31:22 TRACE game] SaveGame.Save() completed without exceptions.
+[14:31:24 TRACE SMAPI] Context: after save, starting spring 6 Y2.
+[14:31:47 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:31:47 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:31:50 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:31:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:31:52 TRACE game] Warping to Farm
+[14:32:06 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:32:06 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:32:15 TRACE game] Warping to Greenhouse
+[14:32:38 TRACE game] Warping to Farm
+[14:32:39 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:32:39 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:33:00 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:33:16 TRACE game] Warping to Farm
+[14:33:30 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[14:34:01 TRACE game] Warping to Farm
+[14:34:08 TRACE game] Warping to Coop53a467f1-de19-4632-9b7b-dc1466f4e48a
+[14:34:40 TRACE game] Warping to Farm
+[14:34:45 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:34:45 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:35:19 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:36:30 TRACE game] Warping to Farm
+[14:36:37 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:37:24 TRACE game] Warping to Farm
+[14:37:26 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:37:34 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:37:34 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:37:48 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:37:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:38:09 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:38:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:38:49 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:38:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:38:52 TRACE game] Warping to Farm
+[14:38:58 TRACE game] Warping to BusStop
+[14:39:06 TRACE game] Warping to Mine
+[14:39:09 TRACE game] Warping to Mountain
+[14:39:15 TRACE game] Warping to AdventureGuild
+[14:39:28 TRACE game] Warping to Mountain
+[14:39:32 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:39:32 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:39:36 TRACE game] Warping to Mine
+[14:39:40 TRACE game] Warping to UndergroundMine60
+[14:39:42 TRACE game] Warping to UndergroundMine61
+[14:39:57 TRACE game] Warping to UndergroundMine62
+[14:40:25 TRACE game] Warping to UndergroundMine63
+[14:41:06 TRACE game] Warping to UndergroundMine64
+[14:42:05 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:42:05 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:42:09 TRACE game] Warping to UndergroundMine65
+[14:42:28 TRACE game] Warping to UndergroundMine66
+[14:42:50 TRACE game] Warping to UndergroundMine67
+[14:44:50 TRACE game] Warping to Mine
+[14:44:55 TRACE game] Warping to BusStop
+[14:45:02 TRACE game] Warping to Farm
+[14:45:08 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:45:22 TRACE SMAPI] Synchronizing 'NewDay' task...
+[14:45:27 TRACE SMAPI]    task complete.
+[14:45:33 TRACE SMAPI] Context: before save.
+[14:45:33 TRACE game] SaveGame.Save() called.
+[14:45:33 TRACE SMAPI] Synchronizing 'Save' task...
+[14:45:33 TRACE game] Saving without compression...
+[14:45:34 TRACE SMAPI]    task complete.
+[14:45:34 TRACE game] SaveGame.Save() completed without exceptions.
+[14:45:36 TRACE SMAPI] Context: after save, starting spring 7 Y2.
+[14:45:55 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:45:55 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:45:59 TRACE game] Warping to Farm
+[14:46:06 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:46:06 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:46:10 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:46:20 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:46:20 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:46:30 TRACE game] Warping to Farm
+[14:46:37 TRACE game] Warping to Greenhouse
+[14:47:19 TRACE game] Warping to Farm
+[14:47:50 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:47:50 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:48:47 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:49:05 TRACE game] Warping to Farm
+[14:49:18 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[14:49:50 TRACE game] Warping to Farm
+[14:49:58 TRACE game] Warping to Coop53a467f1-de19-4632-9b7b-dc1466f4e48a
+[14:50:33 TRACE game] Warping to Farm
+[14:50:41 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:50:41 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:50:49 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:50:49 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:51:11 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:51:34 TRACE game] Warping to Farm
+[14:52:10 TRACE game] Warping to Forest
+[14:52:38 TRACE game] Warping to Woods
+[14:52:42 TRACE game] Warping to Woods
+[14:52:45 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:52:45 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:52:52 TRACE game] Warping to Forest
+[14:53:16 TRACE game] Warping to AnimalShop
+[14:53:27 TRACE game] Warping to Forest
+[14:53:34 TRACE game] Warping to Town
+[14:53:42 TRACE game] Warping to HaleyHouse
+[14:53:47 TRACE game] Warping to Town
+[14:54:10 TRACE game] Warping to BusStop
+[14:54:24 TRACE game] Warping to Mine
+[14:54:28 TRACE game] Warping to UndergroundMine60
+[14:54:30 TRACE game] Warping to UndergroundMine61
+[14:54:54 TRACE game] Warping to UndergroundMine62
+[14:55:27 TRACE game] Warping to UndergroundMine63
+[14:56:32 TRACE game] Warping to UndergroundMine64
+[14:56:42 TRACE game] Warping to Mine
+[14:56:45 TRACE game] Warping to Mountain
+[14:56:51 TRACE game] Warping to AdventureGuild
+[14:57:00 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:57:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:57:20 TRACE game] Warping to Mountain
+[14:57:27 TRACE game] Warping to Mine
+[14:57:32 TRACE game] Warping to UndergroundMine110
+[14:57:35 TRACE game] Warping to UndergroundMine111
+[14:58:11 TRACE game] Warping to UndergroundMine112
+[14:58:36 TRACE game] Warping to UndergroundMine113
+[14:58:38 TRACE game] Warping to Mine
+[14:58:43 TRACE game] Warping to BusStop
+[14:58:51 TRACE game] Warping to Farm
+[14:58:52 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:58:52 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:59:02 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[14:59:25 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[14:59:25 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[14:59:32 TRACE SMAPI] Synchronizing 'NewDay' task...
+[14:59:34 TRACE SMAPI]    task complete.
+[14:59:41 TRACE SMAPI] Context: before save.
+[14:59:45 TRACE game] SaveGame.Save() called.
+[14:59:45 TRACE SMAPI] Synchronizing 'Save' task...
+[14:59:45 TRACE game] Saving without compression...
+[14:59:45 TRACE SMAPI]    task complete.
+[14:59:45 TRACE game] SaveGame.Save() completed without exceptions.
+[14:59:47 TRACE SMAPI] Context: after save, starting spring 8 Y2.
+[15:00:06 TRACE game] Warping to Farm
+[15:00:13 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:00:13 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:00:15 TRACE game] Warping to FarmHouse
+[15:00:27 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:00:27 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:00:31 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:00:31 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:01:45 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:01:45 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:01:48 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:01:48 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:01:51 TRACE game] Warping to Farm
+[15:02:03 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[15:02:21 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:02:21 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:02:29 TRACE game] Warping to Farm
+[15:02:31 TRACE game] Warping to Barn550a1fd7-319b-4111-94d3-2a1715b7589a
+[15:02:32 TRACE game] Warping to Farm
+[15:02:39 TRACE game] Warping to Coop53a467f1-de19-4632-9b7b-dc1466f4e48a
+[15:03:09 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:03:09 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:03:12 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:03:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:03:14 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:03:14 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:03:16 TRACE game] Warping to Farm
+[15:03:33 TRACE game] Warping to BusStop
+[15:03:46 TRACE game] Warping to Town
+[15:05:10 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:05:10 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:06:09 TRACE game] Warping to SeedShop
+[15:06:37 TRACE game] Warping to Town
+[15:07:23 TRACE game] Warping to HaleyHouse
+[15:07:28 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:07:28 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:07:47 TRACE game] Warping to Town
+[15:07:52 TRACE game] Warping to Forest
+[15:08:01 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:08:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:08:02 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:08:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:08:40 TRACE game] Warping to Farm
+[15:08:51 TRACE game] Warping to Greenhouse
+[15:09:43 TRACE game] Warping to Farm
+[15:09:50 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[15:10:21 TRACE game] Warping to Farm
+[15:11:35 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[15:12:01 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:12:01 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:12:12 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:12:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:12:44 TRACE game] Warping to Farm
+[15:12:52 TRACE game] Warping to Shedb8cf88bf-b940-403d-9ec4-6cdbbb8a4126
+[15:13:00 TRACE game] Warping to Farm
+[15:13:07 TRACE game] Warping to FarmHouse4e3c6f4d-a927-42ff-893c-a4dff855964e
+[15:13:08 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:13:08 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:13:42 TRACE SMAPI] Synchronizing 'NewDay' task...
+[15:13:44 TRACE SMAPI]    task complete.
+[15:13:51 TRACE SMAPI] Context: before save.
+[15:13:51 TRACE game] SaveGame.Save() called.
+[15:13:51 TRACE SMAPI] Synchronizing 'Save' task...
+[15:13:51 TRACE game] Saving without compression...
+[15:13:51 TRACE SMAPI]    task complete.
+[15:13:51 TRACE game] SaveGame.Save() completed without exceptions.
+[15:13:53 TRACE SMAPI] Context: after save, starting spring 9 Y2.
+[15:14:00 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:14:00 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:14:02 TRACE game] setDropDownToProperValue( serverMode, friends ) called.
+[15:14:02 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[15:14:04 TRACE game] Stopping LAN server
+[15:14:04 TRACE game] Stopping Steam server
+[15:14:04 TRACE game] 76561198258524610 disconnected from server
+[15:14:04 TRACE game] Stopping Galaxy server
+[15:14:04 TRACE game] Disconnected: ClosedGame
+[15:14:04 TRACE SMAPI] Disposing...
+[15:14:04 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.
